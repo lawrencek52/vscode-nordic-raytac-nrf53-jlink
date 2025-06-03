@@ -1,4 +1,4 @@
-**Debugging Zephyr nRF52840 programs with VSCode – Version 0.1**
+f*Debugging Zephyr nRF52840 programs with VSCode – Version 0.1**
 
 **Components**
 
@@ -18,7 +18,7 @@
 | [Zephyr Getting Started](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)                                    | 1            |
 | [Zephyr Software Development Kit (SDK)](https://docs.zephyrproject.org/latest/develop/toolchains/zephyr_sdk.html#toolchain-zephyr-sdk)| 1            |
 | [VSCode](https://code.visualstudio.com/download)                                                                                      | 1            |
-| [VSCode setup files](https://github.com/lawrencek52/vscode-nordic-nrf52-jlink)                                                        | 1            |
+| [VSCode setup files](https://github.com/lawrencek52/vscode-nordic-raytac-nrf53-jlink)                                                        | 1            |
 |                                                                                                                                       |              |
 **Description**
 
@@ -154,7 +154,7 @@ then copy the appropriate files into the .vscode subdirectory of
 \~/Documents/bluetooth\_observer. Use the following commands.
 
 ```bash
-cd ~/Documents/vscode-nordic-nrf52-jlink
+cd ~/Documents/vscode-nordic-raytac-nrf53-jlink
 cp -r .vscode ~/Documents/bluetooth_observer/
 ```
 
