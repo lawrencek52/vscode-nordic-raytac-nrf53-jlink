@@ -1,4 +1,4 @@
-f*Debugging Zephyr nRF52840 programs with VSCode – Version 0.1**
+**Debugging Zephyr nRF52840 programs with VSCode – Version 0.1**
 
 **Components**
 
