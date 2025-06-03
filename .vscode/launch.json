@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations":[
+        {
+            "name": "Launch",
+            "device": "nrf5340_xxAA_APP",
+            "cwd":"${workspaceFolder}",
+            "executable": "build/nrf5340-raytac/zephyr/zephyr.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "jlink",
+            "gdbPath": "${env:ZEPHYR_SDK_INSTALL_DIR}/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+            "preLaunchTask": "West Build"
+        },
+        {
+            "name": "Attach",
+            "device": "nRF5340_xxAA_APP",
+            "cwd": "${workspaceFolder}",
+            "executable": "build/nrf5340-raytac/zephyr/zephyr.elf",
+            "request": "attach",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "jlink",
+            "gdbPath": "${env:ZEPHYR_SDK_INSTALL_DIR}/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
+        }
+    ]
+}

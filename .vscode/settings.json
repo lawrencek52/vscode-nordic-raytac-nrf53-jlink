@@ -1,0 +1,10 @@
+{
+    "cmake.configurationOnOpen": false,
+    "C_Cpp.default.includePath": ["${userHome}/zephyrproject/zephyr/include"],
+    "C_Cpp.default.compilerPath": "/${env:ZEPHYR_SDK_INSTALL_DIR}/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
+    "C_Cpp.default.compilerCommands": "${workspaceFolder}/build/compile_commands.json",
+    "files.associations": {},
+    "C_Cpp.errorSquiggles": "disabled",
+    "cortex-debug.JLinkGDBServerPath": "",
+    "cortex-debug.armToolchainPath": ""
+}

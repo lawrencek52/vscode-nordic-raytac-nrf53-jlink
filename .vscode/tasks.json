@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "West Build",
+			"type": "shell",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"linux": {
+				"command": "${userHome}/.local/bin/west"
+			},
+			"windows": {
+				"command": "${userhome}/zephyrproject/.venv/Scripts/west.exe"
+			},
+			"osx": {
+				"command": "${userhome}/zephyrproject/.venv/Scripts/west"
+			},
+			"args": [
+				"build",
+				"-p",
+				"auto",
+				"-b",
+				"raytac_mdbt53_db_40/nrf5340/cpuapp"
+				"--sysbuild"
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		}
+	]
+}
